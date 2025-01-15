@@ -14,10 +14,7 @@ jobs:
               run: ls
             
             - name: Read file
-              run: |
-                cd ..
-                cd ..
-                pwd
+              run: cat gitactions1/README.md
                 
             
              
